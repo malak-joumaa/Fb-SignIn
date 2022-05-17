@@ -7,7 +7,15 @@ body{
 img{
     width: 100%;
     height: 100px;
+    justify-content: left;
 }
-p{
-    size: 28px
+#left-p{
+    size: 28px;
+}
+
+.form-c{
+    border-radius: 5px;
+    padding: 14px 16px;
+    width: 100%;
+    font-size: 17px;
 }

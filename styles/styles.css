@@ -27,12 +27,22 @@ img{
     font-family: Arial, Helvetica, sans-serif;
 }
 
+form input{
+    border: 1px solid #dddfe2;
+}
+
 .form-c{
-    border-radius: 5px;
+    border-radius: 6px;
     padding: 14px 16px;
     width: 100%;
     font-size: 17px;
+    margin-bottom: 20px;
 }
+
+.form-m{
+    margin-bottom: 20px;
+}
+
 #login-btn{
     background-color: #1877f2;
     color: white;
@@ -40,10 +50,37 @@ img{
     font-size: 20px;
     font-weight: bold;
 }
+
 #new-acc-btn{
     background-color: #42B72A;
     color: white;
     width: 70%;
     border: 1px solid #42B72A;
     font-weight: bold;
+}
+
+form hr{
+    margin-top: 20px;
+    border: 0.5px solid #dadde1;
+}
+
+.form-a, .form-a::after{
+    color: #1877f2;
+    text-decoration: none;
+}
+
+.form-a:hover{
+    text-decoration: underline;
+}
+
+.right-a, .right-a::after{
+    color: black;
+    text-decoration: none;
+}
+
+.right-a:hover{
+    text-decoration: underline;
+}
+#right-p{
+    font-size: 14px;
 }

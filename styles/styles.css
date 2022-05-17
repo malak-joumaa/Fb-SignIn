@@ -43,6 +43,7 @@ img{
     font-family: Arial, Helvetica, sans-serif;
 }
 
+/* form */
 form{
     background-color: white;
     align-items: center;
@@ -90,7 +91,7 @@ form input{
 
 form hr{
     margin-top: 20px;
-    border: 0.5px solid #dadde1;
+    color: #dadde1;
     
 }
 
@@ -102,6 +103,8 @@ form hr{
 .form-a:hover{
     text-decoration: underline;
 }
+
+/* End Form */
 
 .right-a, .right-a::after{
     color: black;
@@ -115,8 +118,31 @@ form hr{
     font-size: 14px;
 }
 
-#bottom-section{
-    background-color: white;
-    font-size: 12px;
-    color: #737373;
+
+/* Media Query */
+@media only screen and (max-width: 768px) {
+    #mainDiv{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        padding-top: 0px;
+        margin:0 auto;
+        width: 100%;
+        text-align: center;
+    }
+    img{
+        margin-left: 0px;
+        padding-top: 0px;
+    }
+    #left-p{
+        font-size: 28px;
+        margin-top: 0%;
+        width: 60%;
+        margin-left: 22%;
+    }
+    form{
+        margin-top: 40px;
+        margin:0 auto;
+    }
+
 }

@@ -13,9 +13,37 @@ img{
     size: 28px;
 }
 
+#mainDiv{
+    display: flex;
+    justify-content: center;
+    padding-top: 100px;
+    padding-bottom: 80px;
+    margin: 0 auto;
+}
+
+#rightDiv{
+    justify-content: center;
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
 .form-c{
     border-radius: 5px;
     padding: 14px 16px;
     width: 100%;
     font-size: 17px;
+}
+#login-btn{
+    background-color: #1877f2;
+    color: white;
+    border: 1px solid #1877f2;
+    font-size: 20px;
+    font-weight: bold;
+}
+#new-acc-btn{
+    background-color: #42B72A;
+    color: white;
+    width: 70%;
+    border: 1px solid #42B72A;
+    font-weight: bold;
 }

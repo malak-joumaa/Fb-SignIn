@@ -12,12 +12,6 @@ body{
     box-sizing: border-box;
     font-family: Arial, Helvetica, sans-serif;
 }
-img{
-    width: 100%;
-    height: 100px;
-    margin-left: -153px;
-    padding-top: 110px;
-}
 
 #mainDiv{
     display: flex;
@@ -28,8 +22,16 @@ img{
     width: 1000px;
 }
 
+/* Left Div */
 #leftDiv{
     padding-right: 30px;
+}
+
+img{
+    width: 100%;
+    height: 100px;
+    margin-left: -153px;
+    padding-top: 110px;
 }
 
 #left-p{
@@ -37,13 +39,14 @@ img{
     margin-top: 0%;
 }
 
+/* Right Div */
 #rightDiv{
     justify-content: center;
     text-align: center;
     font-family: Arial, Helvetica, sans-serif;
 }
 
-/* form */
+/* Form */
 form{
     background-color: white;
     align-items: center;
@@ -53,12 +56,7 @@ form{
     padding: 20px 15px 5px 15px;
     width: 400px;
 }
-
-form input{
-    border: 1px solid #dddfe2; 
-    width: 350px;
-}
-
+/* Class for form elements */
 .form-c{
     border-radius: 6px;
     padding: 14px 16px;
@@ -66,7 +64,13 @@ form input{
     margin-bottom: 20px;
 }
 
-.form-m{
+/* Textboxes */
+form input{
+    border: 1px solid #dddfe2; 
+    width: 350px;
+}
+
+.form-h{
     margin-bottom: 20px;
 }
 
@@ -95,9 +99,11 @@ form hr{
     
 }
 
+/* Links in form */
 .form-a, .form-a::after{
     color: #1877f2;
     text-decoration: none;
+    font-size:15px;
 }
 
 .form-a:hover{
@@ -106,6 +112,7 @@ form hr{
 
 /* End Form */
 
+/* Link below form */
 .right-a, .right-a::after{
     color: black;
     text-decoration: none;

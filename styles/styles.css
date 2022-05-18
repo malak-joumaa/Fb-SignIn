@@ -56,7 +56,9 @@ form{
     padding: 20px 15px 5px 15px;
     width: 400px;
 }
+
 /* Class for form elements */
+
 .form-c{
     border-radius: 6px;
     padding: 14px 16px;
@@ -65,6 +67,7 @@ form{
 }
 
 /* Textboxes */
+
 form input{
     border: 1px solid #dddfe2; 
     width: 350px;
@@ -100,33 +103,67 @@ form hr{
 }
 
 /* Links in form */
+
 .form-a, .form-a::after{
     color: #1877f2;
     text-decoration: none;
     font-size:15px;
 }
 
-.form-a:hover{
+a:hover{
     text-decoration: underline;
 }
 
 /* End Form */
 
 /* Link below form */
+
 .right-a, .right-a::after{
     color: black;
     text-decoration: none;
 }
 
-.right-a:hover{
-    text-decoration: underline;
-}
 #right-p{
     font-size: 14px;
 }
 
+/* Lower Section */
+
+#lower-section{
+    background-color: white;
+    font-size: 12px;
+    color: #737373;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}
+
+#ls-container{
+    margin: 0 25%;
+}
+
+.ls-div{
+    display: inline;
+    padding-left: 0;
+    padding-right: 10%;
+}
+
+#lower-section li{
+    display: inline;
+    padding-right: 10px;
+}
+
+#lower-section a:link, #lower-section a:visited{
+    color: #737373;
+    text-decoration: none;
+}
+
+ul{
+    padding-inline-start: 0px;
+}
 
 /* Media Query */
+
 @media only screen and (max-width: 768px) {
     #mainDiv{
         display: flex;

@@ -140,6 +140,7 @@ a:hover{
 
 #ls-container{
     margin: 0 25%;
+    margin-top: 30px;
 }
 
 .ls-div{
@@ -160,6 +161,11 @@ a:hover{
 
 ul{
     padding-inline-start: 0px;
+}
+
+#lower-section span{
+    float: left;
+    padding: 25px 0;
 }
 
 /* Media Query */
